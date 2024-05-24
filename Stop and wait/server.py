@@ -3,6 +3,7 @@ import time
 import random as rand
 HOST="localhost"
 PORT=5000
+#Run this file first
 
 server_socket=sock.socket(sock.AF_INET,sock.SOCK_STREAM)
 server_socket.bind((HOST,PORT))

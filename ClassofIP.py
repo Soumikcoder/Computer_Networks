@@ -21,4 +21,7 @@ elif ip_bin[0][0:2]=='10' :
     print('Class B')
 elif ip_bin[0][0:3]=='110':
     print('Class C')
-
+elif ip_bin[0][0:4]=='1110':
+    print('Class D')
+else:
+    print('Class E')

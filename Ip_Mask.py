@@ -10,5 +10,6 @@ print('Network mask:',mask_addr)
 start_addr='.'.join(str(mask[i]&ip_addr[i]) for i in range(len(mask)))
 print('Starting Address:',start_addr)
 end_addr='.'.join(str(((mask[i]^255)|ip_addr[i])) for i in range(len(mask)))
+#Also known as Broadcast address
 print('Ending Address:',end_addr)
 print("No of Address in that block:",1<<(32-net_id))
