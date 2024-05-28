@@ -2,6 +2,10 @@
 
 This repository is dedicated to storing all the code spaces used in the Computer Network Lab at College. Here, students can find a comprehensive collection of resources, exercises, and projects related to computer networking.
 
+
+**Disclaimer:** This repo is made for studying purposes only!
+
+
 ## About
 
 This repository serves as a central hub for:
